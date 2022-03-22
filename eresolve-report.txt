@@ -1,0 +1,81 @@
+# npm resolution error report
+
+2022-03-15T13:20:27.890Z
+
+While resolving: inshorts@0.1.0
+Found: react@17.0.2
+node_modules/react
+  react@"^17.0.2" from the root project
+
+Could not resolve dependency:
+peer react@"^0.14.0 || ^15.0.0 || ^16.0.0-0" from react-html-parser@2.0.2
+node_modules/react-html-parser
+  react-html-parser@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "react",
+    "version": "17.0.2",
+    "whileInstalling": {
+      "name": "inshorts",
+      "version": "0.1.0",
+      "path": "D:\\User Form\\inshorts"
+    },
+    "location": "node_modules/react",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "react",
+        "spec": "^17.0.2",
+        "from": {
+          "location": "D:\\User Form\\inshorts"
+        }
+      }
+    ]
+  },
+  "currentEdge": {
+    "type": "prod",
+    "name": "react",
+    "spec": "^17.0.2",
+    "from": {
+      "location": "D:\\User Form\\inshorts"
+    }
+  },
+  "edge": {
+    "type": "peer",
+    "name": "react",
+    "spec": "^0.14.0 || ^15.0.0 || ^16.0.0-0",
+    "error": "INVALID",
+    "from": {
+      "name": "react-html-parser",
+      "version": "2.0.2",
+      "whileInstalling": {
+        "name": "inshorts",
+        "version": "0.1.0",
+        "path": "D:\\User Form\\inshorts"
+      },
+      "location": "node_modules/react-html-parser",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "react-html-parser",
+          "spec": "*",
+          "from": {
+            "location": "D:\\User Form\\inshorts"
+          }
+        }
+      ]
+    }
+  },
+  "strictPeerDeps": false,
+  "force": false
+}

@@ -1,0 +1,15 @@
+.page-footer {
+-webkit-text-size-adjust: 100%;
+color: #222;
+font-size: 1em;
+line-height: 1.4;
+box-sizing: inherit;
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+display: block;
+background-color: #323232!important;
+padding-top: 20px;
+margin-top:50px;
+margin: 0;
+}
+ 

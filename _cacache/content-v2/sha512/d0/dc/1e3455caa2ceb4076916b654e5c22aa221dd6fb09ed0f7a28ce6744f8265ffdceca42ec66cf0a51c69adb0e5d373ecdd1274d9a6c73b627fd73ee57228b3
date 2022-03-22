@@ -1,0 +1,1 @@
+{"name":"dependencies","dist-tags":{"latest":"0.0.1"},"versions":{"0.0.1":{"name":"dependencies","version":"0.0.1","dependencies":{"node-walker":"*","request":"*","async":"*","underscore":"*"},"dist":{"shasum":"f882327b18b42842ead3f4f08624dd3e99f15b25","tarball":"https://registry.npmjs.org/dependencies/-/dependencies-0.0.1.tgz"}}},"modified":"2012-10-11T01:48:50.301Z"}

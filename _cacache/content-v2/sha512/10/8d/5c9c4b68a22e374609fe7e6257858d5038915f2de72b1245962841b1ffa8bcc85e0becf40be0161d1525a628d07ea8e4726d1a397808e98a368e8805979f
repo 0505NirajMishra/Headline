@@ -1,0 +1,1 @@
+{"name":"modulator","dist-tags":{"latest":"0.1.0"},"versions":{"0.1.0":{"name":"modulator","version":"0.1.0","dependencies":{"uglify-js":"x"},"dist":{"shasum":"cfd515843f91d673f15561d9799df7804ad03266","tarball":"https://registry.npmjs.org/modulator/-/modulator-0.1.0.tgz"},"engines":{"node":"*"}}},"modified":"2012-01-13T07:28:54.454Z"}
